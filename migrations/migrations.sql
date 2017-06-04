@@ -1,6 +1,8 @@
-CREATE DATABASE stadiums_forum;
-
-\c stadiums_forum;
+-- DROP DATABASE IF EXISTS stadiums_forum;
+--
+-- CREATE DATABASE stadiums_forum;
+--
+-- \c stadiums_forum;
 
 CREATE TABLE stadiums(
   id BIGSERIAL PRIMARY KEY,
