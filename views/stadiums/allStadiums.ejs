@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- include ./partials/headers.ejs %>
+  </head>
+  <body>
+    <div id="nav-bar-top" class="">
+      <nav>
+        <%- include ./partials/head.ejs %>
+      </nav>
+    </div>
+
+    <div id="wrapper">
+
+      <header>
+        <div class="welcome-to-hfa">
+          Welcome to Home Field Advantage, a forum to share your experiences, likes, dislikes, tips and general knowledge about sports stadiums and arenas in North America - tips about parking, favorite foods, best bathrooms and more. If you are unable find the stadium you are looking for then help us by adding it to our database by clicking the button below. Be sure to like any comments you find helpful! 
+        </div>
+
+      </header>
+      <div id="stadiums-container" >
+        <div id="new-stadium-form" class="hidden">
+          <form class="" action="/stadiums/new" method="post">
+            <div class="comment-header">
+            <div class="">
+             <span class="comment-header-label">NAME</span>
+              <input class="username-input stadium-input" type="text" name="stadium[stadium_name]" required>
+            </div>
+            <div class="">
+             <span class="comment-header-label">ADDRESS</span>
+              <input class="username-input stadium-input" type="text" name="stadium[stadium_address]" required>
+            </div>
+            <div class="">
+             <span class="comment-header-label">WEBSITE</span>
+              <input class="username-input stadium-input" type="url" name="stadium[stadium_website]" required>
+            </div>
+            <div class="">
+             <span class="comment-header-label">IMAGE (url)</span>
+              <input class="username-input stadium-input" type="url" name="stadium[stadium_image-url]" required>
+            </div>
+            <div class="">
+             <span class="comment-header-label">ROOF TYPE</span>
+             <input class="radio-input" type="radio" name="stadium[indoor_outdoor_rr" value="outdoor" checked> OUTDOOR
+             <input class="radio-input" type="radio" name="stadium[indoor_outdoor_rr" value="indoor"> INDOOR
+             <input class="radio-input" type="radio" name="stadium[indoor_outdoor_rr" value="retractable roof"> RETRACTABLE ROOF
+            </div>
+          </div>
+            <div class="">
+              <textarea class="text-area" name="stadium[stadium_description]" rows="8" cols="80" required placeholder="DESCRIPTION"></textarea>
+            </div>
+            <div class="submit-button">
+              <button type="submit" class="new-comment-button" name="button">Add Stadium</button>
+            </div>
+          </form>
+
+        </div>
+
+        <% stadium.forEach((stadium) => {  %>
+          <div class="stadium-thumb-container"><a href="/stadiums/<%= stadium.id %>">
+            <h2><%= stadium.stadium_name %></h2>
+            <img src="<%= stadium.stadium_image_url %>" class="stadium-thumb-image">
+            <p>
+            Home to the</br>
+            <%= stadium.team_name %></br>
+            <img class="team-logo-home" src="<%= stadium.team_image_url %>" width="80px" />
+            </p>
+            </a>
+          </div>
+        <% }); %>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": ">7.9.0"
+  },
+  "engineStrict": true,
+  "name": "home_field_advantage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mark Ledbetter",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "pg-promise": "^5.8.1"
+  }
+}
