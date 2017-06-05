@@ -4,6 +4,8 @@ const logger = require('morgan');
 const path = require('path');
 const bodyParser = require('body-parser');
 const methodOverride = require('method-override');
+//Require the marked package
+const marked = require("marked");
 // const stadiumRouter = require('./resources/stadiums');
 
 // Options for setting the port depending on where app lives
@@ -28,9 +30,6 @@ app.use('/vendor/jquery', express.static(dir.jquery));
 
 // Set up Node to use EJS as templating engine
 app.set('view engine', 'ejs');
-
-// Set up Handlebars
-// app.use(require('handlebars'));
 
 // Set up body parer to parse request the body of submitted forms
 app.use(bodyParser.urlencoded({
