@@ -1,4 +1,6 @@
 const Stadium = require('../../models/stadium');
+//Require the marked package
+const marked = require("marked");
 
 module.exports = {
   home(req, res, next) {

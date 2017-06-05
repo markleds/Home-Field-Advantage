@@ -1,6 +1,18 @@
+//Require the marked package
+const marked = require("marked");
+
 module.exports = {
 
-  listStadiums(req, res) {
+  homePage(req, res) {
+      res.format({
+        html() {
+            res.render('stadiums/home');
+          },
+
+      })
+    },
+
+    listStadiums(req, res) {
       res.format({
         /* SEND OUT HTML */
         html() {

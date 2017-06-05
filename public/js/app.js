@@ -163,8 +163,16 @@ $(document).ready(function() {
     }); // ends function to delete comment
   });
   // cancel update - close modal
-  $('.cancel-update').on('click', function() {
+  $('#cancel-update').on('click', function() {
     $modal.fadeOut();
+  });
+
+  $('#add-stadium').on('click', function() {
+    $('#new-stadium-form').toggleClass('hidden');
+  });
+  // cancel new stadium - hide form
+  $('#cancel-stadium').on('click', function() {
+    $('#new-stadium-form').toggleClass('hidden');
   });
   // update comment
   // const updateButton = $('#update');

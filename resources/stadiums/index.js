@@ -12,6 +12,10 @@ router.route('/:stadiumId(\\d+)/:commentId(\\d+)/')
   .put(controller.update);
 
 // route to view all NFL stadiums
+router.route('/allstadiums')
+  .get(controller.home, views.listStadiums);
+
+// route to view all NFL stadiums
 router.route('/nfl')
   .get(controller.homeNFL, views.listStadiums);
 
@@ -20,7 +24,7 @@ router.route('/mlb')
   .get(controller.homeMLB, views.listStadiums);
 
 router.route('/')
-  .get(controller.home, views.listStadiums);
+  .get(views.homePage);
 
 
 // Get all comments by Category
