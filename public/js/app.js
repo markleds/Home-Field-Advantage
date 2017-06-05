@@ -6,6 +6,16 @@ $(document).ready(function() {
     $('#new-comment-form').toggleClass('hidden');
   });
 
+  // hover functionality on new comment button
+  const $newCommentButton = $('.new-comment-button');
+  $newCommentButton.on('mouseenter', function() {
+    $(this).attr('style', 'color: #ff5606');
+  });
+  $newCommentButton.on('mouseleave', function() {
+    $(this).attr('style', 'color: #000');
+  });
+
+
   const $newComment = $('#new-comment img');
   // $newComment.on('mouseenter', function() {
   //   $(this).attr('src', '/img/button-puck-2.png');

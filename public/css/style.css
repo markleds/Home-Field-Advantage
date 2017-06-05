@@ -292,7 +292,6 @@ textarea {
 h3 {
   margin: 5px auto;
   font-family: 'Anton', sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, .7);
   letter-spacing: 2px;
   font-size: 22px;
   color: #ff5606;
@@ -323,7 +322,7 @@ h3 img {
   margin-bottom: 0;
 }
 .league-thumb-container {
-  width: 250px;
+  width: 200px;
   margin: 20px 10px 0 10px;
   font-size: 16px;
   align-content:flex-start;
