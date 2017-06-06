@@ -28,7 +28,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     const username = $('#update-username').val(),
-      category = $('.select-category').val(),
+      category = $('#update-select-category').val(),
       comment_text = $('.update-text-area').val(),
       stadium_id = $('.comment-stadium-id').val(),
       likes = $('.update-likes').val(),
