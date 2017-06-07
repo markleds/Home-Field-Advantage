@@ -4,39 +4,36 @@
     <%- include ./partials/headers.ejs %>
   </head>
   <body>
-    <div id="nav-bar-top" class="">
-      <nav>
-        <%- include ./partials/head.ejs %>
-      </nav>
-    </div>
+    <header>
+      <%- include ./partials/head.ejs %>
+    </header>
 
     <div id="wrapper">
 
-      <header>
+      <container class="welcome-container">
         <div class="welcome-to-hfa">
           Welcome to Home Field Advantage, a forum to share your experiences, likes, dislikes, tips and general knowledge about sports stadiums and arenas in North America.
         </div>
-
-      </header>
+        <div class="all-stadiums-container">
+          <a href="/stadiums/allstadiums"></br><img width="100%" src="/img/all-stadiums2.png"  /></a>
+        </div>
+      </container>
       <div id="stadiums-container" >
         <div class="league-thumb-container">
-          <a href="/stadiums/allstadiums"></br><img width="200px" src="/img/all-stadiums2.png"  /></a>
-        </div>
-        <div class="league-thumb-container">
-          <a href="/stadiums/nfl"><img width="200px" src="/img/national_football_league.png"  /></a>
+          <a href="/stadiums/nfl"><img width="100%" src="/img/national_football_league.png"  /></a>
         </div>
         <div class="league-thumb-container">
           <a href="/stadiums/mlb"></br>
-          </br><img src="/img/Major_League_Baseball.png" width="200px"  /></a>
+          </br><img src="/img/Major_League_Baseball.png" width="100%"  /></a>
         </div>
         <div class="league-thumb-container"></br>
-          <img width="200px" src="/img/national_hockey_league2.png"  />
+          <img width="100%" src="/img/national_hockey_league2.png"  />
         </div>
         <div class="league-thumb-container">
-          <img height="300px" src="/img/national-basketball-association2.png"  />
+          <img height="200px" src="/img/national-basketball-association2.png"  />
         </div>
         <div class="league-thumb-container">
-          <a href="/stadiums/nfl"><img width="200px" src="/img/mls-logo.png"  /></a>
+        </br></br><a href="/stadiums/nfl"><img width="100%" src="/img/mls-logo.png"  /></a>
         </div>
       </div>
 

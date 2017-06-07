@@ -4,14 +4,12 @@
     <%- include ./partials/headers.ejs %>
   </head>
   <body>
-    <div id="nav-bar-top" class="">
-      <nav>
-        <%- include ./partials/head.ejs %>
-      </nav>
-    </div>
+    <header>
+      <%- include ./partials/head.ejs %>
+    </header>
     <div id="wrapper">
 
-      <header>
+      <container>
         <div id="stadium-info-row" class="clearfix">
           <div id="stadium-info" data-stadium-id="<%= stadium[0].stadium_id %>">
               <img src="<%= stadium[0].stadium_image_url %>" width="300px" class="stadium-image">
@@ -23,7 +21,7 @@
               </ul>
           </div>
         </div>
-      </header>
+      </container>
       <div id="comments-wrapper">
         <div id="comments-container" class="">
           <div id="new-comment-form" class="hidden">
@@ -122,10 +120,10 @@
             <div class="">
               <span class="comment-header-label">CATEGORY</span>
               <select id="update-select-category" class="select-category" name="comment[category]">
-                <option name="comment[category]" value="General">General</option>
-                <option name="comment[category]" value="Parking">Parking</option>
-                <option name="comment[category]" value="Food">Food</option>
-                <option name="comment[category]" value="Fan Experience">Fan Experience</option>
+                <option  value="General">General</option>
+                <option  value="Parking">Parking</option>
+                <option  value="Food">Food</option>
+                <option  value="Fan Experience">Fan Experience</option>
               </select>
             </div>
           </div>

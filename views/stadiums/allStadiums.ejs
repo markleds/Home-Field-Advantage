@@ -4,11 +4,9 @@
     <%- include ./partials/headers.ejs %>
   </head>
   <body>
-    <div id="nav-bar-top" class="">
-      <nav>
-        <%- include ./partials/head.ejs %>
-      </nav>
-    </div>
+    <header>
+      <%- include ./partials/head.ejs %>
+    </header>
 
     <div id="wrapper">
 
@@ -53,14 +51,21 @@
         </div>
 
         <% stadium.forEach((stadium) => {  %>
-          <div class="stadium-thumb-container"><a class="stadium-link" href="/stadiums/<%= stadium.id %>">
-            <h2><%= stadium.stadium_name %></h2>
-            <img src="<%= stadium.stadium_image_url %>" class="stadium-thumb-image">
-            <p>
-            Home to the</br>
-            <%= stadium.team_name %></br>
-            <img class="team-logo-home" src="<%= stadium.team_image_url %>" width="90px" />
-            </p>
+          <div class="stadium-thumb-container">
+            <a class="stadium-link" href="/stadiums/<%= stadium.id %>">
+            <div class="stadium-wrapper">
+              <div class="stadium-image-thumb" style="background-image: url('<%= stadium.stadium_image_url %>')">
+              </div>
+              <div class="stadium-text-thumb">
+              <h2><%= stadium.stadium_name %></h2>
+              <p>
+              Home to the</br>
+              <%= stadium.team_name %></br>
+              <img class="team-logo-home" src="<%= stadium.team_image_url %>" width="90px" />
+              </p>
+              </div>
+
+            </div>
             </a>
           </div>
         <% }); %>

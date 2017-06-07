@@ -158,8 +158,7 @@ $(document).ready(function() {
           `/stadiums/${comment.stadium_id}/comments/${comment.id}/update?_method=put`
         )
         $('#update-username').attr('value', comment.username);
-        $('#update-select-category').attr('value',
-          comment.category);
+        $('#update-select-category').val(comment.category);
         $('#update-text-area').html(comment.comment_text);
         $('#update-likes').attr('value', comment.likes);
         $('.update-comment-id').attr('value', comment.id);
@@ -189,5 +188,27 @@ $(document).ready(function() {
   // $updateButton.on('click', function() {
   //   $modal.fadeOut();
   // });
+  $(window).on('scroll', function(e) {
+    const $header = $("header");
+    const $navImage = $("nav img");
+    const $headerH1 = $("header h1");
+    const $headerLogo = $("#logo");
+    var distanceY = window.pageYOffset || $(window).scrollTop(),
+      shrinkOn = 300;
+    if (distanceY > shrinkOn) {
+      $header.addClass("smaller");
+      $navImage.addClass("smaller");
+      $headerH1.addClass("smaller");
+      $headerLogo.removeClass("logo").addClass("logo-small");
+    } else {
+      if ($header.hasClass("smaller")) {
+        $header.removeClass("smaller");
+        $navImage.removeClass("smaller");
+        $headerH1.removeClass("smaller");
+        $headerLogo.removeClass("logo-small").addClass("logo");
+
+      }
+    }
+  });
 
 });
