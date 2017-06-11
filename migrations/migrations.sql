@@ -131,7 +131,7 @@ INSERT INTO teams (
 ('Baltimore Orioles', 'MLB', 'http://orioles.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bal_79x76.jpg', '32'),
 ('Boston Red Sox', 'MLB', 'http://redsox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bos_79x76.jpg', '33'),
 ('Chicago White Sox', 'MLB', 'http://whitesox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cws_79x76.jpg', '34'),
-('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35')
+('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35'),
 ('Detroit Tigers', 'MLB', 'http://tigers.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_det_79x76.jpg', '36'),
 ('Houston Astros', 'MLB', 'http://astros.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_hou_79x76.jpg', '37'),
 ('Kansas City Royals', 'MLB', 'http://royals.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_kc_79x76.jpg', '38'),
@@ -201,7 +201,7 @@ INSERT INTO comments (
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '32'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '33'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '34'),
-('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35')
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35').
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '36'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '37'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '38'),
