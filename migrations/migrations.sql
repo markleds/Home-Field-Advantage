@@ -3,7 +3,7 @@
 -- CREATE DATABASE stadiums_forum;
 --
 -- \c stadiums_forum;
-
+DROP TABLE IF EXISTS stadiums;
 CREATE TABLE stadiums(
   id BIGSERIAL PRIMARY KEY,
   stadium_name VARCHAR(164) NOT NULL,
@@ -15,6 +15,7 @@ CREATE TABLE stadiums(
   date_created TIMESTAMP NOT NULL DEFAULT NOW()
 );
 
+DROP TABLE IF EXISTS teams;
 CREATE TABLE teams(
   id BIGSERIAL PRIMARY KEY,
   team_name VARCHAR(164) NOT NULL,
@@ -24,6 +25,7 @@ CREATE TABLE teams(
   stadium_id INTEGER REFERENCES stadiums(id)
 );
 
+DROP TABLE IF EXISTS comment;
 CREATE TABLE comments(
   id BIGSERIAL PRIMARY KEY,
   username VARCHAR(255) NOT NULL,
