@@ -1,6 +1,8 @@
-# Home Field Advantage
+# Home Field Advantage  
 
-### Share tips, recommendations and experiences for at different sports stadiums across North America.
+![Imgur](http://i.imgur.com/r5CmvPTl.jpg)
+
+### Share tips, recommendations and experiences for at different sports stadiums across North America.  
 
 Users will be able to make comments and add experiences to different topics or categories for each stadium in North America.
 
