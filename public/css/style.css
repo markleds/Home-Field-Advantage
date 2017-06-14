@@ -546,7 +546,7 @@ a:hover.stadium-link {
   margin: 6px auto 0 auto;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: middle center;
+  background-position: center;
 }
 .stadium-text-thumb {
   padding: 8px;

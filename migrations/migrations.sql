@@ -97,7 +97,7 @@ INSERT INTO stadiums (
 ('Globe Life Park in Arlington', '1000 Ballpark Way, Arlington, TX 76011', 'http://www.globelifepark.com/', 'Outdoor', 'Globe Life Park in Arlington is a stadium in Arlington, Texas, located between Dallas and Fort Worth. It is home to the American League''s Texas Rangers, and the Texas Rangers Baseball Hall of Fame.', 'http://www.baseballpilgrimages.com/american/arlington.jpg'),
 ('Rogers Centre', '1 Blue Jays Way, Suite 3200, Toronto, Ontario, Canada', 'http://m.mlb.com/bluejays/tickets/info/rogers-centre-events', 'Retractable Roof', 'Rogers Centre, originally named SkyDome, is a multi-purpose stadium in Downtown Toronto, Ontario, Canada situated just southwest of the CN Tower near the northern shore of Lake Ontario.', 'http://cdn.fansided.com/wp-content/uploads/usat-images/2016/04/9412916-mlb-baltimore-orioles-at-toronto-blue-jays-850x560.jpeg'),
 ('Chase Field', '401 East Jefferson Street, Phoenix, AZ 85004', 'http://arizona.diamondbacks.mlb.com/ari/ballpark/', 'Retractable Roof', 'Chase Field is a baseball park located in Downtown Phoenix, Arizona. It is the home of the Arizona Diamondbacks, the city''s Major League Baseball franchise.', 'http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/chase_topv2.jpg'),
-('SunTrust Park', '755 Battery Avenue, Atlanta, GA 30339', 'http://atlanta.braves.mlb.com/atl/ballpark/information/index.jsp', 'Outdoor', 'SunTrust Park is a baseball park located in the Atlanta metropolitan area 10 miles northwest of downtown Atlanta in the Cumberland neighborhood of Cobb County.', 'https://www.google.com/search?q=SunTrust+Park&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjZ_p7bnr7UAhVFXD4KHWMpB2IQ_AUIDCgD&biw=1280&bih=676#imgdii=Frwy-cWJ2887AM:&imgrc=o1J0TVpqCoOG9M:');
+('SunTrust Park', '755 Battery Avenue, Atlanta, GA 30339', 'http://atlanta.braves.mlb.com/atl/ballpark/information/index.jsp', 'Outdoor', 'SunTrust Park is a baseball park located in the Atlanta metropolitan area 10 miles northwest of downtown Atlanta in the Cumberland neighborhood of Cobb County.', 'http://media.beta.wsbtv.com/photo/2017/04/14/SUn%20Trust%20Park_20170415010335710_7786046_ver1.0_640_360.jpg');
 
 INSERT INTO teams (
   team_name,
@@ -141,7 +141,7 @@ INSERT INTO teams (
 ('Baltimore Orioles', 'MLB', 'http://orioles.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bal_79x76.jpg', '32'),
 ('Boston Red Sox', 'MLB', 'http://redsox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bos_79x76.jpg', '33'),
 ('Chicago White Sox', 'MLB', 'http://whitesox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cws_79x76.jpg', '34'),
-('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35')
+('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35'),
 ('Detroit Tigers', 'MLB', 'http://tigers.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_det_79x76.jpg', '36'),
 ('Houston Astros', 'MLB', 'http://astros.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_hou_79x76.jpg', '37'),
 ('Kansas City Royals', 'MLB', 'http://royals.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_kc_79x76.jpg', '38'),
@@ -211,7 +211,7 @@ INSERT INTO comments (
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '32'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '33'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '34'),
-('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35')
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '36'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '37'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '38'),
