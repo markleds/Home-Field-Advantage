@@ -532,13 +532,21 @@ a:hover.stadium-link {
   height: 140px;
   /*overflow: hidden;*/
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: middle center;
 }
 .stadium-thumb-image {
   width: 100%;
   /*max-height: 200px;*/
   /*border: #000 1px solid;*/
+}
+.team-logo-card {
+  height: 50px;
+  width: 90px;
+  margin: 6px auto 0 auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: middle center;
 }
 .stadium-text-thumb {
   padding: 8px;
@@ -650,6 +658,24 @@ margin-bottom: 3px;}
   }
   .logo-small {
     font-size: 30px;
+  }
+  .stadium-thumb-container {
+    width: 175px;
+    font-size: 12px;
+    height: 250px;
+  }
+  .team-logo-card {
+    height: 30px;
+    width: 50px;
+  }
+  .stadium-image-thumb {
+    height: 100px;
+  }
+  .stadium-text-thumb h2 {
+    font-size: 18px;
+  }
+  #stadiums-container p {
+    font-size: 14px;
   }
 }
 
