@@ -40,6 +40,8 @@ CREATE INDEX on teams (league);
 CREATE INDEX on comments (category);
 
 
+-- \c stadiums_forum;
+
 INSERT INTO stadiums (
   stadium_name,
   stadium_address,
@@ -88,8 +90,14 @@ INSERT INTO stadiums (
 ('Kauffman Stadium', 'One Royal Way, Kansas City, MO 64129', 'http://kansascity.royals.mlb.com/kc/ballpark/', 'Outdoor', 'Kauffman Stadium, often called "The K", is a baseball park located in Kansas City, Missouri, that is home to the Kansas City Royals Major League Baseball team.', 'http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/kauff09951.jpg'),
 ('Angel Stadium', '2000 Gene Autry Way, Anaheim, CA 92806', 'http://kansascity.royals.mlb.com/kc/ballpark/', 'Outdoor', 'Angel Stadium of Anaheim, originally known as Anaheim Stadium and later Edison International Field of Anaheim, is a modern-style ballpark located in Anaheim, California.', 'https://i.gse.io/gse_media/114/6/1406569210-venue-AngelsStadium_Intr_Day.jpg?p=1'),
 ('Target Field', '1 Twins Way, Minneapolis, MN 55403', 'http://minnesota.twins.mlb.com/min/ballpark/', 'Outdoor', 'Target Field is a baseball park located in the historic warehouse district of downtown Minneapolis. It is the home ballpark of the Minnesota Twins, the state''s Major League Baseball franchise.', 'http://thefan1230.com/wp-content/uploads/2013/08/Target-Field.jpg'),
-('Yankee Stadium', 'One East 161st Street, Bronx, NY 10451', 'http://newyork.yankees.mlb.com/nyy/ballpark/', 'Outdoor', 'Yankee Stadium is a stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball. ', 'http://m.mlb.com/assets/images/9/8/6/176398986/cuts/20150721_STADIUM_AGH_1131_2000x1333_nkhmtv84_4wh74k09.jpg'),
-('Oakland Coliseum', '7000 Coliseum Way, Oakland, CA 94621', 'http://www.coliseum.com/', 'Outdoor', 'The Oakland–Alameda County Coliseum, often referred to as the Oakland Coliseum, is a multi-purpose stadium in Oakland, California, United States, which is home to both the Oakland Athletics of Major League Baseball (MLB) and the Oakland Raiders of the National Football League (NFL). ', 'http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/oco_topv2.jpg');
+('Yankee Stadium', 'One East 161st Street, Bronx, NY 10451', 'http://newyork.yankees.mlb.com/nyy/ballpark/', 'Outdoor', 'Yankee Stadium is a stadium located in the Concourse section of the Bronx, a borough of New York City. It serves as the home ballpark for the New York Yankees of Major League Baseball.', 'http://m.mlb.com/assets/images/9/8/6/176398986/cuts/20150721_STADIUM_AGH_1131_2000x1333_nkhmtv84_4wh74k09.jpg'),
+('Oakland Coliseum', '7000 Coliseum Way, Oakland, CA 94621', 'http://www.coliseum.com/', 'Outdoor', 'The Oakland–Alameda County Coliseum, often referred to as the Oakland Coliseum, is a multi-purpose stadium in Oakland, California, United States, which is home to both the Oakland Athletics of Major League Baseball (MLB) and the Oakland Raiders of the National Football League (NFL).', 'http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/oco_topv2.jpg'),
+('Safeco Field', 'P.O. Box 4100, Seattle, WA 98104', 'http://seattle.mariners.mlb.com/sea/ballpark/', 'Retractable Roof', 'Safeco Field is a retractable roof baseball stadium located in Seattle, Washington. However, unlike other retractable roof stadiums, Safeco Field has what is called a "retractable umbrella".', 'http://static1.squarespace.com/static/511992e4e4b084d1d0b0e149/t/524b6317e4b0aac0d82d952a/1433783062036/Safeco+wide.JPG?format=1000w'),
+('Tropicana Field', 'One Tropicana Drive, St. Petersburg, FL 33705', 'http://tampabay.rays.mlb.com/tb/ballpark/', 'Indoor', 'Tropicana Field is a domed stadium in St. Petersburg, Florida, United States, that has been the home of the Tampa Bay Rays of Major League Baseball since the team''s inaugural season in 1998.', 'https://s.yimg.com/uu/api/res/1.2/31cWAC25THkTyoCGtnbuCw--/aD00MjA7dz02MzA7c209MTthcHBpZD15dGFjaHlvbg--/http://media.zenfs.com/en/blogs/sptusmlbexperts/TropicanaFieldBLSguide.jpg'),
+('Globe Life Park in Arlington', '1000 Ballpark Way, Arlington, TX 76011', 'http://www.globelifepark.com/', 'Outdoor', 'Globe Life Park in Arlington is a stadium in Arlington, Texas, located between Dallas and Fort Worth. It is home to the American League''s Texas Rangers, and the Texas Rangers Baseball Hall of Fame.', 'http://www.baseballpilgrimages.com/american/arlington.jpg'),
+('Rogers Centre', '1 Blue Jays Way, Suite 3200, Toronto, Ontario, Canada', 'http://m.mlb.com/bluejays/tickets/info/rogers-centre-events', 'Retractable Roof', 'Rogers Centre, originally named SkyDome, is a multi-purpose stadium in Downtown Toronto, Ontario, Canada situated just southwest of the CN Tower near the northern shore of Lake Ontario.', 'http://cdn.fansided.com/wp-content/uploads/usat-images/2016/04/9412916-mlb-baltimore-orioles-at-toronto-blue-jays-850x560.jpeg'),
+('Chase Field', '401 East Jefferson Street, Phoenix, AZ 85004', 'http://arizona.diamondbacks.mlb.com/ari/ballpark/', 'Retractable Roof', 'Chase Field is a baseball park located in Downtown Phoenix, Arizona. It is the home of the Arizona Diamondbacks, the city''s Major League Baseball franchise.', 'http://www.ballparksofbaseball.com/wp-content/uploads/2016/03/chase_topv2.jpg'),
+('SunTrust Park', '755 Battery Avenue, Atlanta, GA 30339', 'http://atlanta.braves.mlb.com/atl/ballpark/information/index.jsp', 'Outdoor', 'SunTrust Park is a baseball park located in the Atlanta metropolitan area 10 miles northwest of downtown Atlanta in the Cumberland neighborhood of Cobb County.', 'https://www.google.com/search?q=SunTrust+Park&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjZ_p7bnr7UAhVFXD4KHWMpB2IQ_AUIDCgD&biw=1280&bih=676#imgdii=Frwy-cWJ2887AM:&imgrc=o1J0TVpqCoOG9M:');
 
 INSERT INTO teams (
   team_name,
@@ -133,20 +141,20 @@ INSERT INTO teams (
 ('Baltimore Orioles', 'MLB', 'http://orioles.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bal_79x76.jpg', '32'),
 ('Boston Red Sox', 'MLB', 'http://redsox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_bos_79x76.jpg', '33'),
 ('Chicago White Sox', 'MLB', 'http://whitesox.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cws_79x76.jpg', '34'),
-('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35'),
+('Cleveland Indians', 'MLB', 'http://indians.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cle_79x76.jpg', '35')
 ('Detroit Tigers', 'MLB', 'http://tigers.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_det_79x76.jpg', '36'),
 ('Houston Astros', 'MLB', 'http://astros.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_hou_79x76.jpg', '37'),
 ('Kansas City Royals', 'MLB', 'http://royals.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_kc_79x76.jpg', '38'),
 ('Los Angeles Angels', 'MLB', 'http://angels.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_ana_79x76.jpg', '39'),
 ('Minnesota Twins', 'MLB', 'http://twinsbaseball.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_min_79x76.jpg', '40'),
 ('New York Yankees', 'MLB', 'http://yankees.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_nyy_79x76.jpg', '41'),
-('Oakland Athletics', 'MLB', 'http://athletics.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_oak_79x76.jpg', '42')
--- ('Seattle Mariners', 'MLB', 'http://mariners.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_sea_79x76.jpg', '43'),
--- ('Tampa Bay Rays', 'MLB', 'http://raysbaseball.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tb_79x76.jpg', '44'),
--- ('Texas Rangers', 'MLB', 'http://texasrangers.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tex_79x76.jpg', '45'),
--- ('Toronto Blue Jays', 'MLB', 'http://bluejays.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tor_79x76.jpg', '46'),
--- ('Arizona Diamondbacks', 'MLB', 'http://dbacks.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_ari_79x76.jpg', '47'),
--- ('Atlanta Braves', 'MLB', 'http://braves.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_atl_79x76.jpg', '48'),
+('Oakland Athletics', 'MLB', 'http://athletics.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_oak_79x76.jpg', '42'),
+('Seattle Mariners', 'MLB', 'http://mariners.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_sea_79x76.jpg', '43'),
+('Tampa Bay Rays', 'MLB', 'http://raysbaseball.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tb_79x76.jpg', '44'),
+('Texas Rangers', 'MLB', 'http://texasrangers.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tex_79x76.jpg', '45'),
+('Toronto Blue Jays', 'MLB', 'http://bluejays.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_tor_79x76.jpg', '46'),
+('Arizona Diamondbacks', 'MLB', 'http://dbacks.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_ari_79x76.jpg', '47'),
+('Atlanta Braves', 'MLB', 'http://braves.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_atl_79x76.jpg', '48')
 -- ('Chicago Cubs', 'MLB', 'http://cubs.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_chc_79x76.jpg', '49'),
 -- ('Cincinnati Reds', 'MLB', 'http://reds.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_cin_79x76.jpg', '50'),
 -- ('Colorado Rockies', 'MLB', 'http://rockies.com/', 'http://mlb.mlb.com/mlb/images/team_logos/logo_col_79x76.jpg', '51'),
@@ -203,20 +211,20 @@ INSERT INTO comments (
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '32'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '33'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '34'),
-('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '35')
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '36'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '37'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '38'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '39'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '40'),
 ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '41'),
-('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '42')
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '43'),
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '44'),
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '45'),
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '46'),
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '47'),
--- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '48'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '42'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '43'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '44'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '45'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '46'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '47'),
+('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '48')
 -- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '49'),
 -- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '50'),
 -- ('Administrator', 'General', 'Welcome to Home Field Advantage. Share your experiences, likes, dislikes, tips and recommendations for many of the sports stadiums in the USA. Click the heart button and like any posts that you found helpful.', '1', '51'),
