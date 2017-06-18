@@ -593,6 +593,13 @@ margin-bottom: 3px;}
   #nav-wrapper {
     padding-left: 0;
   }
+  #wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
   .stadium-image {
     width: 150px;
   }
