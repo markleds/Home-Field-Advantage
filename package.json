@@ -5,7 +5,7 @@
   "engineStrict": true,
   "name": "home_field_advantage",
   "version": "1.0.0",
-  "description": "",
+  "description": "Home Feld Advantage is a forum for users to share advice, tips, experiences, likes, dislikes or general feelings for the different professional sports stadiums in North America.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
