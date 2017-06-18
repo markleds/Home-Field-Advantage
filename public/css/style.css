@@ -590,6 +590,9 @@ margin-bottom: 3px;}
   li img {
     height: 40px;
   }
+  #nav-wrapper {
+    padding-left: 0;
+  }
   .stadium-image {
     width: 150px;
   }
