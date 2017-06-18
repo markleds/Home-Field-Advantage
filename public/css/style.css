@@ -601,10 +601,12 @@ margin-bottom: 3px;}
   }
   .welcome-to-hfa {
     width: 100%;
+    flex: none;
   }
   .all-stadiums-container {
     margin-left: auto;
     margin-right: auto;
+    flex: none;
   }
   #comments-wrapper {
     display: block;
