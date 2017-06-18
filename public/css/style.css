@@ -600,7 +600,9 @@ margin-bottom: 3px;}
     display: block;
   }
   .welcome-to-hfa {
-    width: 100%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     flex: none;
   }
   .all-stadiums-container {
