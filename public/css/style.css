@@ -596,6 +596,9 @@ margin-bottom: 3px;}
   h1 {
     font-size: 24px;
   }
+  .welcome-container {
+    display: block;
+  }
   #comments-wrapper {
     display: block;
     width: 97%;
